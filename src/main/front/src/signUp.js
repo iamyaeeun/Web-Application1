@@ -8,6 +8,7 @@ function SignUp(){
     const [zipcode,setZipcode]=useState("");
 
     const handleSubmit=(event)=>{
+
         event.preventDefault();
 
         const data={
